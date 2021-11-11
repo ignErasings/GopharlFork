@@ -1,0 +1,27 @@
+{
+  "name": "gopharl",
+  "version": "1.0.0",
+  "description": "An advanced and very powerful CLI GUI tool for managing your Linux/Windows server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoveTeam/Gopharl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoveTeam/Gopharl/issues"
+  },
+  "homepage": "https://github.com/NoveTeam/Gopharl#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  }
+}
