@@ -19,7 +19,9 @@
   "homepage": "https://github.com/NoveTeam/Gopharl#readme",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.10.1"
+    "blessed-contrib": "^4.10.1",
+    "moment": "^2.29.1",
+    "os-utils": "^0.0.14"
   },
   "devDependencies": {
     "@types/node": "^16.11.7"
