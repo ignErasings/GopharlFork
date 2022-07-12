@@ -41,10 +41,10 @@ var appList = grid.set(3, 0, 4, 4, blessed.list, {
         selected: {
             bg: 'white',
             fg: 'black',
-            bold: true
+            bold: false
         }
     },
-    items: ['Clone repository from GitHub', 'List all running processes', 'Logout current user', 'Change "Message of the Day"', 'Check for updates']
+    items: ['Clone repository from GitHub', 'List all currently running processes', 'Logout current user and go to login screen.', 'Change "MOTD (Message Of The Day)"', 'Check for updates']
 });
 var systemUsage = grid.set(7, 0, 6, 4, contrib.line, {
     showNthLabel: 5,
@@ -93,7 +93,7 @@ var processList = grid.set(7, 4, 6, 4, blessed.list, {
     scrollbar: {
         ch: ' ',
         track: {
-            bg: 'cyan'
+            bg: 'red'
         },
         style: {
             inverse: true
@@ -117,19 +117,19 @@ var terminal = grid.set(1, 8, 12, 4, blessed.textarea, {
 
 
 var D_cpu = {
-    title: 'CPU',
+    title: 'CPU Usage',
     style: { line: 'blue' },
     x: [],
     y: []
 }
 var D_net = {
-    title: 'Network',
+    title: 'Net Usage',
     style: { line: 'green' },
     x: [],
     y: []
 }
 var D_ram = {
-    title: 'RAM',
+    title: 'RAM Usage',
     style: { line: 'red' },
     x: [],
     y: []
